@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.files = Dir.glob("{lib,test}/**/*") + %w[LICENSE README.rdoc]
 
-  s.add_dependency  'observables', '~> 0.1.2'
   s.add_dependency  'mm_dirtier', '~> 0.1.1'
 
   s.add_development_dependency 'rake'
